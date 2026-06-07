@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace API.Extensions;
 
-public static class AppUserExtensio
+public static class AppUserExtensions
 {
     public static UserDto toDto(this AppUser user, ITokenService tokenService)
     {
